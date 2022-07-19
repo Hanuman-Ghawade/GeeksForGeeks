@@ -16,4 +16,4 @@ function isPalindrome (str){
     }
 }
 
-console.log(isPalindrome("Hanuman"))
+console.log(isPalindrome("abcba"))

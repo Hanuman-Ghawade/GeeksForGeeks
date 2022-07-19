@@ -4,7 +4,7 @@
 long integers. */
 
 // output = 16 24
-const arr = [1,3,5,7,9];
+const arr = [1,73,5,7,9];
 let sum1=0;
 let sum2=0;
 for (let i = 0; i < arr.length-1; i++) {
