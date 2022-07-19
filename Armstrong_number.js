@@ -25,6 +25,3 @@ if (sum == number ) {
 } else {
     console.log("This is not armstrong number")
 }
-
-
-console.log(1 % 10)
