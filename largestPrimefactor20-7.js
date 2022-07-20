@@ -12,5 +12,5 @@ for(let i=0;i<=number;i++){
 
     }
 }
- console.log(primeBOI)
 
+ console.log(primeBOI)
