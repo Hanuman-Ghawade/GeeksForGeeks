@@ -2,7 +2,7 @@
 
  // input = 9 , output  = 2
 
- let number = 26 ;
+ let number = 25 ;
 
  let count = 0;
  for (let i = 1; i < number; i++) {
