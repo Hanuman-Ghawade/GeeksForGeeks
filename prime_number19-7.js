@@ -9,4 +9,4 @@ function prime_number(n){
      return `${n} is a prime number`
 }    
     
-console.log(prime_number(23))
+console.log(prime_number(13))

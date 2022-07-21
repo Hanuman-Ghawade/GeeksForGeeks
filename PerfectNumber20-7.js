@@ -10,6 +10,7 @@ for (let i = 1;i <=number ; i++ ){
         arr.push(i)
     }
 }
+
 let sum = 0 ;
 for (let i = 0; i < arr.length-1; i++) {
     sum += arr[i]
