@@ -3,7 +3,7 @@
 let arr = [] ;
 let num;
 function primeNumberSum (number){
-    num=number;
+   num = number;
 
     for (let j = 2; j < number; j++) {
         let flag = 0 ;
@@ -13,7 +13,7 @@ function primeNumberSum (number){
                 break 
             }   
         }
-        if (j>1 && flag==0 ) {
+        if (j>1 && flag == 0 ) {
             // console.log(j) ;
             arr.push(j)
 
@@ -26,5 +26,4 @@ let sum = 0
 for (let i = 0; i < arr.length; i++) {
     sum += arr[i]
 }
-console.log("Sum of prime numbers till: "+num+" is "+sum)
-
+console.log("Sum of prime numbers till:  " +num+" is " +sum)
