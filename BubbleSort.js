@@ -1,10 +1,11 @@
 // Bubble Sort Algorithm
+// Sort array ascending order using bubble sort alogorithm
 
 let count = 0 ;
 function bubbleSort(array) {
     for (let i = 0; i < array.length; i++) {
         for (let j = 0; j < l-i-1; j++) {
-            if (array[j] < array[j+1]) {
+            if (array[j] >  array[j+1]) {
                 let temp = array[j];
                 array[j] = array[j+1]
                 array[j+1] = temp
